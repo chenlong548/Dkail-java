@@ -102,4 +102,4 @@ Dkail-java/
 
 ## 许可证
 
-本项目仅供学习与交流使用，所有版权归原作者所有。
+[MIT License](LICENSE)
