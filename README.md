@@ -20,13 +20,21 @@
 
 ## 快速开始
 
+### 环境要求
+
+| 环境 | 必需？ | 说明 |
+|------|--------|------|
+| [Java 17+](https://adoptium.net/) | 必需 | 运行后端 JAR |
+| [Npcap](https://npcap.com/) | 推荐 | 网络抓包驱动；未安装时自动降级为 netstat 模式（连接信息受限） |
+| WebView2 | 通常已自带 | Windows 10/11 预装；老版本 Windows 需手动安装 |
+
 ### 方式一：下载安装包（推荐）
 
 前往 [Releases](https://github.com/chenlong548/Dkail-java/releases) 下载最新版本：
 
 | 文件 | 说明 |
 |------|------|
-| `DKail-Backend-v1.0.0.jar` | 后端服务（需 Java 17+） |
+| `DKail-Backend-v1.0.0.jar` | 后端服务 |
 | `DKail-Security-Monitor_1.0.0_x64-setup.exe` | NSIS 安装包（推荐） |
 | `DKail-Security-Monitor_1.0.0_x64_en-US.msi` | MSI 安装包 |
 
