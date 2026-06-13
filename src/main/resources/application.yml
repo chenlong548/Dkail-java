@@ -1,0 +1,30 @@
+server:
+  port: 8080
+  address: 127.0.0.1
+
+spring:
+  application:
+    name: dkail-security-monitor
+
+dkail:
+  monitoring:
+    enabled: true
+    refresh-interval-ms: 1000
+  security:
+    authentication-enabled: false
+    api-key: your-secret-api-key-here
+    rate-limit-requests: 100
+    rate-limit-window-seconds: 60
+  threat-detection:
+    enabled: true
+    check-interval-ms: 5000
+    max-alerts-stored: 100
+
+logging:
+  level:
+    com.dkail: DEBUG
+    root: INFO
+  file:
+    name: logs/dkail.log
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"

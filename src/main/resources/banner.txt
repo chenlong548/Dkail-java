@@ -1,0 +1,9 @@
+
+    ____  _   __  __  __
+   / __ \(_) / / / / / /
+  / / / / / / / / / / /
+ / /_/ / / / / / / / /
+/_____/_/ /_/ /_/ /_/
+
+  DKail Security Monitor v1.0.0
+  :: Real-time Network Threat Detection ::

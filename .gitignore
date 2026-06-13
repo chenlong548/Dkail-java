@@ -1,0 +1,38 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+
+# Node.js / Frontend
+node_modules/
+dkail-ui/dist/
+dkail-ui/node_modules/
+
+# Rust / Cargo (Tauri build artifacts)
+dkail-ui/src-tauri/target/
+dkail-ui/target/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+*.py
+*.tmp
+开发与安装手册_v2.pdf
+开发与安装手册_v3.pdf
