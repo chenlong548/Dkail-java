@@ -31,6 +31,9 @@ dkail-ui/target/
 Thumbs.db
 desktop.ini
 
+# Presentation
+DKail-Project-Presentation.html
+
 # Temp
 *.py
 *.tmp
