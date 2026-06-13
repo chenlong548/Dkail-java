@@ -34,6 +34,9 @@ desktop.ini
 # Presentation
 DKail-Project-Presentation.html
 
+# Manual (PDF is the distribution format)
+开发与安装手册.html
+
 # Temp
 *.py
 *.tmp
